@@ -4,7 +4,7 @@ FeastFlow is a modern full-stack food ordering web application built using **HTM
 
 ---
 
-# 📌 Features
+## 📌 Features
 
 - 🔐 User Registration & Login
 - 🍽️ Browse Food Menu
@@ -21,23 +21,23 @@ FeastFlow is a modern full-stack food ordering web application built using **HTM
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-## Frontend
+### Frontend
 - HTML5
 - CSS3
 - JavaScript
 
-## Backend
+### Backend
 - Node.js
 - Express.js
 
-## Database
+### Database
 - MySQL
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 FeastFlow
@@ -52,12 +52,22 @@ FeastFlow
 │
 ├── feastflow_db.sql
 │
+├── login.png
+├── register.png
+├── home.png
+├── address.png
+├── checkout.png
+├── database-users.png
+├── database-orders.png
+│
 └── README.md
 ```
 
 ---
 
-# 🗃️ Database Tables
+## 🗃️ Database Tables
+
+The MySQL database consists of the following tables:
 
 - Users
 - Addresses
@@ -67,7 +77,17 @@ FeastFlow
 
 ---
 
-# 🚀 Installation
+## 📋 Prerequisites
+
+Before running this project, make sure the following software is installed:
+
+- Node.js
+- npm (comes with Node.js)
+- MySQL Server
+
+---
+
+## 🚀 Installation
 
 ### 1. Clone the Repository
 
@@ -88,7 +108,7 @@ cd backend
 npm install
 ```
 
-### 4. Start the Server
+### 4. Start the Backend Server
 
 ```bash
 node server.js
@@ -96,7 +116,7 @@ node server.js
 
 The server will start at:
 
-```
+```text
 http://localhost:3001
 ```
 
@@ -104,50 +124,98 @@ http://localhost:3001
 
 Import the **feastflow_db.sql** file into your MySQL database.
 
-### 6. Launch the Application
+### 6. Run the Application
 
-Open the following file in your browser:
+Open **frontend/index.html** in your preferred web browser.
 
-```
-frontend/index.html
-```
+> **Note:** Make sure the backend server is running and MySQL is connected before using the application.
 
 ---
 
-# 📷 Screenshots
+## 📷 Screenshots
 
-Add screenshots of the following pages:
+### 🔐 Login Page
 
-- Login Page
-- Home Page
-- Food Menu
-- Product Details
-- Shopping Cart
-- Checkout Page
-- Order History
+Secure login using a registered mobile number and email address.
+
+![Login Page](login.png)
 
 ---
 
-# ✨ Future Enhancements
+### 📝 Register Page
+
+Create a new account by entering your name, mobile number, and email address.
+
+![Register Page](register.png)
+
+---
+
+### 🏠 Home Page
+
+Browse food categories, search for dishes, and explore popular menu items.
+
+![Home Page](home.png)
+
+---
+
+### 📍 Delivery Address
+
+Add and manage delivery addresses before placing an order.
+
+![Delivery Address](address.png)
+
+---
+
+### 🛒 Checkout Page
+
+Review your order, verify the delivery address, choose a payment method, and place the order.
+
+![Checkout Page](checkout.png)
+
+---
+
+### 🗄️ Users Table (MySQL)
+
+Stores user registration details securely in the MySQL database.
+
+![Users Table](database-users.png)
+
+---
+
+### 📦 Orders Table (MySQL)
+
+Stores order information, purchased items, quantities, prices, and order status.
+
+![Orders Table](database-orders.png)
+
+---
+
+## ✨ Future Enhancements
 
 - OTP-Based Authentication
-- Razorpay or Stripe Payment Integration
+- Online Payment Gateway Integration (Razorpay/Stripe)
 - Admin Dashboard
 - Restaurant Management Panel
 - Real-Time Order Tracking
 - Email Notifications
+- User Profile Management
+- Order Status Updates
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Yashodip Patil**
 
 GitHub:  
 https://github.com/yashodippatil25-cloud
 
+If you have any suggestions or feedback, feel free to open an issue or contribute to this project.
+
 ---
 
-# ⭐ Support
+## ⭐ Support
 
 If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+Thank you for visiting the repository!
